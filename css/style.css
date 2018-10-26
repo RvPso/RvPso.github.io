@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.lives {
+    height:auto;
+    width: 50px;
+
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold
+}
+.left {
+    position:absolute;
+    right: 785px;
+    top: 845px;
+}
+.right {
+    position: absolute;
+    right: 665px;
+    top: 845px;
+}
+
+.down {
+    position: absolute;
+    top: 845px;
+    right: 725px;
+}
